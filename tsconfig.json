@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "target": "ES2022",
+    "sourceMap": true,
+    "lib": [
+      "ES2021"
+    ],
+    "typeRoots": ["node_modules/@types"],
+    "outDir": "build",
+    "baseUrl": "src",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "inlineSources": true,
+    "preserveConstEnums": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "importHelpers": true
+  },
+    "exclude": ["node_modules"]
+  }
